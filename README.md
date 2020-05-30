@@ -20,7 +20,7 @@ Use this command to install all package at once
 ```
 pip install requirements.txt 
 ```
-## Run the application
+## Usage
 Download the [SSD Mobilenet](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) model from [here](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) and place it inside the saved_model folder. Your folder structure should look like this,
 ```
 |_ input
