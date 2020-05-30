@@ -48,4 +48,7 @@ This appllication requires few input data,
  ## Demo
  ![Alt Image](demo.gif)
  
+<<<<<<< HEAD
 
+=======
+>>>>>>> 683ef2e19445159c5f6772224e207c1c20e2bb98
