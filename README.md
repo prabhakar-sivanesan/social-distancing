@@ -9,6 +9,14 @@ This application gets a live video feed from the camera or a recorded video file
   - Highlight them if they cross the safe threshold distance
 
 ## Installation
-Install neccessary python packages using```
+Install neccessary python packages
+```
+numpy==1.18.2
+requests==2.18.4
+tensorflow==1.15.2
+opencv_python==4.1.2.30
+```
+Use this command to install all package at once
+```
 pip install requirements.txt 
 ```
