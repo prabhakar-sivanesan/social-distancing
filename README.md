@@ -21,6 +21,7 @@ Use this command to install all package at once
 pip install requirements.txt 
 ```
 ## Run the application
+Download the [SSD Mobilenet](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) model from [here](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) and place it inside the saved_model folder.
 Execute this application using the following command,
 ```
 python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
@@ -28,6 +29,7 @@ python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
 This appllication requires few input data,
 
   - **minThresh** - Minimum threshold score to detect person in the video
+  - **model** -  Path to model 
   - **input** - File path to the input video or Camera ID
   - **x** - Pixel difference in X axis
   - **y** - Pixel difference in Y axis
