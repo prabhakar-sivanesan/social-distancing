@@ -9,7 +9,6 @@ This application gets a live video feed from the camera or a recorded video file
   - Highlight them if they cross the safe threshold distance
 
 ## Installation
-Install neccessary python packages using
-```
+Install neccessary python packages using```
 pip install requirements.txt 
 ```
