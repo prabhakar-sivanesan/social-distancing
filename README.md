@@ -21,7 +21,18 @@ Use this command to install all package at once
 pip install requirements.txt 
 ```
 ## Run the application
-Download the [SSD Mobilenet](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) model from [here](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) and place it inside the saved_model folder.
+Download the [SSD Mobilenet](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) model from [here](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQnLdKxoSj6c8SN&export=download) and place it inside the saved_model folder. Your folder structure should look like this,
+```
+|_ input
+  |_ video.mp4
+|_ saved_model
+   |_ get_model.py
+   |_ saved_model.pb
+|_ README.md
+|_ requirements.txt
+|_ script.py
+```
+
 Execute this application using the following command,
 ```
 python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
