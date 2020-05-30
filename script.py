@@ -84,7 +84,7 @@ def main():
                                 cv2.rectangle(image, c[1], c[2], (0,0,255), 2)
                                 #cv2.rectangle(sub_zero, c[1],c[2], (0,0,255), 2)
                                 draw = (p1, p2)
-                            else:
+                            else:        
                                 cv2.rectangle(image, p1, p2, (0,255,0), 2)
                                 #cv2.rectangle(sub_zero, p1,p2, (0,255,0), 2)
                             if(len(draw)>1):
@@ -95,7 +95,7 @@ def main():
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
             cv2.imshow("Display", image)
-        cv2.destroyAllWindows()
+    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     main()
