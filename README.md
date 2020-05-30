@@ -27,7 +27,7 @@ python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
 ```
 This appllication requires few input data,
 
-  - minThresh - Minimum threshold score to detect person in the video
-  - input - File path to the input video or Camera ID
-  - x - Pixel difference in X axis
-  - y - Pixel difference in Y axis
+  - **minThresh** - Minimum threshold score to detect person in the video
+  - **input** - File path to the input video or Camera ID
+  - **x** - Pixel difference in X axis
+  - **y** - Pixel difference in Y axis
