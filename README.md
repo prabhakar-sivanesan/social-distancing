@@ -35,7 +35,7 @@ Download the [SSD Mobilenet](https://drive.google.com/uc?id=1wqpmLlWht7Ihs1mH2WQ
 
 Execute this application using the following command,
 ```
-python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
+python3 script.py --minThresh 40 --x 40 --y 10 --input input/video.mp4
 ```
 This appllication requires few input data,
 
