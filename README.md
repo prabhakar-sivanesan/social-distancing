@@ -9,7 +9,7 @@ This application gets a live video feed from the camera or a recorded video file
   - Highlight them if they cross the safe threshold distance
 
 ## Installation
-Install neccessary python packages
+List of neccessary python packages to run this application
 ```
 numpy==1.18.2
 requests==2.18.4
@@ -20,3 +20,13 @@ Use this command to install all package at once
 ```
 pip install requirements.txt 
 ```
+## Run the application
+Execute this application using the following command,
+```
+python3 script.py --minThresh 40 --x 10 --y 20 --input input/video.mp4
+```
+This appllication requires few input data,
+  -minThresh - Minimum threshold score to detect person in the video
+  -input - File path to the input video or Camera ID
+  -x - Pixel difference in X axis
+  -y - Pixel difference in Y axis
