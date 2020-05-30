@@ -4,3 +4,5 @@ Many countries have mandated social distancing as a rule that people should foll
 
 This application gets a live video feed from the camera or a recorded video file as an input and carry out the below steps,
   - Detect people using SSD Mobilenet model trained on COCO dataset.
+  - Calculate the pixel distance between each person
+  - Highlight them if they cross the safe threshold distance
