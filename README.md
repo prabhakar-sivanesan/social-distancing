@@ -10,6 +10,4 @@ This application gets a live video feed from the camera or a recorded video file
 
 ## Installation
 Install neccessary python packages using
-  '''
-  pip install requirements.txt
-  '''
+''' pip install requirements.txt '''
