@@ -47,8 +47,3 @@ This appllication requires few input data,
   
  ## Demo
  ![Alt Image](demo.gif)
- 
-<<<<<<< HEAD
-=======
-
->>>>>>> final commit
