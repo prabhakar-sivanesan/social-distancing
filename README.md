@@ -13,7 +13,7 @@ List of neccessary python packages to run this application
 ```
 numpy==1.18.2
 requests==2.18.4
-tensorflow==1.15.2
+tensorflow==1.15.4
 opencv_python==4.1.2.30
 ```
 Use this command to install all package at once
